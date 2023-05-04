@@ -11,5 +11,6 @@
 
 let highAndLow = (numbers) => {
 let nb = numbers.split(' ').map(a=>+a)
-return `${Math.max(...nb)} ${Math.min(...nb)}`
+return const=`${Math.max(...nb)} ${Math.min(...nb)}`
 }
+
