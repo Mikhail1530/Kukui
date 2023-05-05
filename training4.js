@@ -15,3 +15,6 @@
 // * Input: [2,2,1,2,1], output = [2,2,2,1]
 
 SOLUTION
+function removeSmallest(numbers) {
+    return numbers.filter((num,index)=> index !== numbers.indexOf(Math.min(...numbers)))
+  }
