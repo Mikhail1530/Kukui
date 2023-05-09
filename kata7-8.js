@@ -12,6 +12,6 @@
 
 SOLUTION 
 
-function likeOrDislike(buttons) {
+function likeOrDis(buttons) {
     return buttons.reduce((a, b) => b === a ? Nothing : b, Nothing)
 }
