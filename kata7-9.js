@@ -14,7 +14,6 @@
 // Shorter words will have an empty string in the place once the word has already been mapped out (see the last element in the last element in the array).
 
 // Examples:
-
 // [
 //   ['J','L','L','M'],
 //   ['u','i','i','a'],
