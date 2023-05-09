@@ -10,7 +10,7 @@
 // If no button is currently active, return Nothing.
 // If the list is empty, return Nothing.
 
-SOLUTION
+SOLUTION 
 
 function likeOrDislike(buttons) {
     return buttons.reduce((a, b) => b === a ? Nothing : b, Nothing)
